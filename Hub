@@ -2168,5 +2168,5 @@ do
 	end
 end
 
-print("Hub loaded")
+print("Ultimate Hub loaded")
 return library
