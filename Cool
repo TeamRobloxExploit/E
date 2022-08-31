@@ -1,7 +1,9 @@
 if game.PlaceId == 1554960397 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Car%20Dealership%20Tycoon.lua"))()
 elseif game.PlaceId == 6679274937 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Vans%20World.lua"))()   
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Vans%20World.lua"))() 
+elseif game.PlaceId == 8436975214 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheGoodCoolGuy/THECOOL/main/DangerousSPEEEED"))() 
 else
     setclipboard("https://discord.gg/eVZNwmnmdV")
     game.Players.LocalPlayer:Kick("Game Not Supported, Discord link copied to clipboard")
