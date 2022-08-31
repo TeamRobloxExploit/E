@@ -9,4 +9,3 @@ else
     setclipboard("https://discord.gg/eVZNwmnmdV")
     game.Players.LocalPlayer:Kick("Game Not Supported, Discord link copied to clipboard")
 end
-e
