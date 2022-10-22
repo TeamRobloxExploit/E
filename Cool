@@ -1,9 +1,16 @@
+for i,v in pairs(game.Players:GetPlayers()) do
+if v:GetRankInGroup(4870860) > 1 then
+game.Players.LocalPlayer:Kick("Artanis is a skid lol")
+end
+end
 if game.PlaceId == 1554960397 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Car%20Dealership%20Tycoon.lua"))()
 elseif game.PlaceId == 6679274937 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Vans%20World.lua"))() 
 elseif game.PlaceId == 8436975214 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamRobloxExploit/E/main/Dangerous%20speed"))() 
+elseif game.PlaceId == 4566572536 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheGoodCoolGuy/THECOOL/main/VL.lua"))()
 else
     setclipboard("https://discord.gg/eVZNwmnmdV")
     game.Players.LocalPlayer:Kick("Game Not Supported, Discord link copied to clipboard")
