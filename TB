@@ -93,7 +93,7 @@ end)
 --fourth page
 local page = venyx:addPage("Credits", 5012544693)
 credit = page:addSection("Credits:")
-script = page:addSection("Script made by NotABotPlayer,Hub made by IExploit#2564 and GOLDGAMER#9088")
+script = page:addSection("Script made by NotABotPlayer, Hub made by IExploit#2564 and GOLDGAMER#9088")
 gui1 = page:addSection("Ui Library by Denosaur on v3rmillion (Venyx Gui)")
 
 -- load
