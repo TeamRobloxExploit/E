@@ -11,6 +11,8 @@ elseif game.PlaceId == 8436975214 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamRobloxExploit/E/main/Dangerous%20speed"))() 
 elseif game.PlaceId == 4566572536 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheGoodCoolGuy/THECOOL/main/VL.lua"))()
+elseif game.PlaceId == 7305309231 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamRobloxExploit/E/main/TB"))()
 else
     setclipboard("https://discord.gg/eVZNwmnmdV")
     game.Players.LocalPlayer:Kick("Game Not Supported, Discord link copied to clipboard")
