@@ -28,7 +28,7 @@ TextColor = Color3.fromRGB(255, 255, 255)
 local page = venyx:addPage("Main", 5012544693)
 local section1 = page:addSection("Autofarm (WIP, not working)")
 local section2 = page:addSection("Inf money + auto collect candy (must have 150 candy to start)")
-local section 5 = page:addSection("Join Discord for updates and help")
+local section5 = page:addSection("Join Discord for updates and help")
 
 section1:addToggle("Auto Farm", nil, function(value)
 print("Toggled", value)
